@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<link rel="stylesheet" href="саппорт крутомувованчику1994.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кибербезопасность в интернете</title>
+</head>
+<body>
+    <header>
+        <h1>Кибербезопасность в интернете</h1>
+        <p>Как защитить свои данные и сохранить конфиденциальность в сети.</p>
+    </header>
+
+    <main>
+		<section>
+    <h2>Действия для защиты данных</h2>
+    <p>Нажмите на кнопку, чтобы получить важную подсказку о безопасности!</p>
+    <button onclick="showSecurityTip()">Получить подсказку</button>
+    <p id="securityTip" style="display:none; color: green;"></p>
+</section>
+
+		<section>
+    <h2>Основные угрозы в интернете</h2>
+    <p>Киберугрозы могут включать вирусы, фишинг, хакерские атаки и другие формы вмешательства в личную информацию.</p>
+    <a href="https://example.com" target="_blank" class="button">Подробнее о киберугрозах</a>
+</section>
+
+<section>
+    <h2>Как защитить свои данные</h2>
+    <p>Используйте сложные пароли, включайте двухфакторную аутентификацию и обновляйте программное обеспечение.</p>
+    <button class="button" onclick="alert('Не забывайте обновлять пароли регулярно!')">Подсказка по безопасности</button>
+</section>
+
+    </main>
+
+    <footer>
+        <p>© 2024 Твой сайт по кибербезопасности</p>
+    </footer>
+<script>
+    function showSecurityTip() {
+        var tip = document.getElementById('securityTip');
+        tip.style.display = 'block';
+        tip.innerHTML = 'Помни! Использование сложных паролей — первый шаг к безопасности в интернете!';
+    }
+</script>
+</body>
+</html>
